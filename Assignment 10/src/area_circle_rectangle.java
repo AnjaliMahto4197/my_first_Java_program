@@ -12,7 +12,7 @@ public class area_circle_rectangle {
         double area= 0.5*base*height;
         return area;
     }
-    public static void main(String[] args) {
+    public static void main(String args[]) {
         Scanner myObj= new Scanner(System.in);
         System.out.println("Press 1: Area of Circle . ") ;
         System.out.println("Press 2: Area of Rectangle . ") ;
