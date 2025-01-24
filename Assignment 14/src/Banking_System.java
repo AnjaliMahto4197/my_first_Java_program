@@ -1,4 +1,4 @@
-//class of bank account
+ //class of bank account
 class BankAccount {
 
 
@@ -11,7 +11,7 @@ class BankAccount {
     private static int totalAccounts = 0;
     private static double totalBalance = 0.0;
 
-    // Constructor for  new bank account
+    // parameterized Constructor for  new bank account
     public BankAccount(String accountNumber, String accountHolderName, double initialBalance) {
         this.accountNumber = accountNumber;
         this.accountHolderName = accountHolderName;
